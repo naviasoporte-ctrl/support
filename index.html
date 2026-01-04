@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Soporte — NavIA</title>
+    <meta name="description" content="Soporte oficial de NavIA: contacto, ayuda y resolución de problemas." />
+    <style>
+      :root {
+        --bg: #f7f8fa;
+        --card: #ffffff;
+        --text: #111827;
+        --muted: #6b7280;
+        --border: rgba(0,0,0,.08);
+        --link: #274690;
+        --btn: #007aff;
+        --btnText: #ffffff;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0b0f14;
+          --card: #141a22;
+          --text: #e5e7eb;
+          --muted: #9ca3af;
+          --border: rgba(255,255,255,.12);
+          --link: #93c5fd;
+          --btn: #2f81f7;
+          --btnText: #ffffff;
+        }
+      }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji",
+          "Segoe UI Emoji";
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.5;
+      }
+      .wrap {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 24px 16px 40px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 18px;
+        margin-top: 12px;
+      }
+      h1 {
+        font-size: 22px;
+        margin: 0 0 6px;
+      }
+      h2 {
+        font-size: 16px;
+        margin: 0 0 10px;
+      }
+      p {
+        margin: 10px 0;
+        color: var(--muted);
+      }
+      a { color: var(--link); }
+      .btnRow {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 12px;
+      }
+      .btn {
+        display: inline-block;
+        background: var(--btn);
+        color: var(--btnText);
+        text-decoration: none;
+        padding: 10px 14px;
+        border-radius: 12px;
+        font-weight: 700;
+      }
+      ul {
+        margin: 8px 0 0 18px;
+        color: var(--muted);
+      }
+      .small { font-size: 12px; color: var(--muted); }
+      code {
+        background: rgba(127,127,127,.14);
+        padding: 2px 6px;
+        border-radius: 8px;
+      }
+      .footer {
+        margin-top: 14px;
+        font-size: 12px;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <h1>Soporte — NavIA</h1>
+        <p>
+          Página de soporte oficial de <strong>NavIA</strong> (iOS y Android).
+          Si tienes un problema o sugerencia, puedes contactar por email.
+        </p>
+
+        <div class="btnRow">
+          <a class="btn" href="mailto:navia.soporte@gmail.com?subject=NavIA%20-%20Soporte">
+            Contactar por email
+          </a>
+          <a class="btn" href="mailto:navia.soporte@gmail.com?subject=NavIA%20-%20Reporte%20de%20error&body=Describe%20el%20problema%20y%20los%20pasos%20para%20reproducirlo.%0A%0APlataforma%20(iOS/Android):%0AVersi%C3%B3n%20de%20NavIA:%0AModelo%20de%20dispositivo:%0A">
+            Reportar error
+          </a>
+        </div>
+
+        <div class="footer">
+          Email de soporte: <a href="mailto:navia.soporte@gmail.com">navia.soporte@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Preguntas frecuentes</h2>
+        <p><strong>La previsión o el mar no cargan</strong></p>
+        <ul>
+          <li>Comprueba tu conexión a Internet.</li>
+          <li>Prueba a cambiar de ubicación y volver a intentarlo.</li>
+          <li>Si persiste, envía un email con la hora aproximada del fallo.</li>
+        </ul>
+
+        <p><strong>Ubicación</strong></p>
+        <ul>
+          <li>La ubicación se usa en primer plano para consultar previsiones cercanas.</li>
+          <li>Puedes cambiar permisos en Ajustes del dispositivo.</li>
+        </ul>
+
+        <p><strong>Webcams</strong></p>
+        <ul>
+          <li>
+            Las webcams se abren como enlaces en el navegador del sistema.
+            NavIA no aloja ni emite el vídeo.
+          </li>
+          <li>
+            El contenido y la disponibilidad dependen del proveedor de la webcam.
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Información útil</h2>
+        <p>
+          Cuando escribas a soporte, si puedes incluye:
+        </p>
+        <ul>
+          <li>Plataforma: iOS / Android</li>
+          <li>Versión de la app (por ejemplo: 1.0 (2))</li>
+          <li>Modelo del dispositivo</li>
+          <li>Pasos para reproducir el problema</li>
+        </ul>
+
+        <p class="small">
+          Nota: este sitio es una página estática (por ejemplo GitHub Pages). No recoge datos por sí mismo, salvo
+          los que envíes voluntariamente por email.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
